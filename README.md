@@ -14,6 +14,7 @@
 - es6
 - es5
 - css3
+- less
 - vue
 - koa2
 - nodejs
