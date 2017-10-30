@@ -35,9 +35,12 @@ npm run dev //运行项目
   ```
   git add -all
   git status
-  git commit -m'message'
+  git commit --verbose
   ```
-  提交commit时，必须要给出完整扼要的提交信息，避免语义不明确
+  git commit 命令的verbose参数，会列出 diff 的结果。清晰的看到自己修改过的内容
+  
+#### 第三步：撰写提交信息
+提交commit时，必须要给出完整扼要的提交信息，避免语义不明确
 #### 第三步：与远程仓库保持同步
   ```
   git fetch origin develop
