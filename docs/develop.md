@@ -22,4 +22,28 @@ npm run dev //运行项目
 </style>
 
 ```
+### git使用规范
+目前每个组建单独一个仓库，需要单独发布。意味着每个仓库，都至少需要`master`和`develop`俩个分支。开发阶段在`develop`完成，需要发布则合并代码到`master`分支进行合并。
 
+#### 第一步：新建分支
+    
+  ```
+  # 新建自己的开发分支
+  git checkout -b develop
+  ```
+#### 第二步：提交分支
+  ```
+  git add -all
+  git status
+  git commit -m'message'
+  ```
+  提交commit时，必须要给出完整扼要的提交信息，避免语义不明确
+#### 第三步：与远程仓库保持同步
+  ```
+  git fetch origin develop
+  git rebase origin/develop
+  ```
+#### 第四步：推送到远程仓库
+  ```
+  git push origin develop
+  ```
