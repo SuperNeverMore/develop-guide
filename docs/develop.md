@@ -7,6 +7,7 @@ npm install fed-easy-boilerplate -g
 sn init
 模板名称填vue
 项目名称自定义，例如：sn-button
+npm run dev //运行项目
 ```
 ### 开发思路
 
