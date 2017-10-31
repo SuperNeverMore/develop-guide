@@ -8,6 +8,9 @@
 
 [详情点击这里](https://github.com/SuperNeverMore/develop-guide/blob/master/docs/develop.md)
 
+### 组件规划
+
+[详情点击这里](https://github.com/SuperNeverMore/develop-guide/blob/master/docs/mission.md)
 
 ### 技术栈
 
