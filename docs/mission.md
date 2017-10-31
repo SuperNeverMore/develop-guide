@@ -2,7 +2,7 @@
 
 ### 组件总体规划
 
-[](https://github.com/SuperNeverMore/develop-guide/blob/master/docs/mission.png)
+![image](https://github.com/SuperNeverMore/develop-guide/blob/master/docs/mission.png?raw=true)
 
 ### 任务分配
 
